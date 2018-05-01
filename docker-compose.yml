@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  sgc.ui.web:
+    image: sgcuiweb
+    build:
+      context: .
+      dockerfile: src/SGC.UI.Web/Dockerfile
